@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <title>Newsletter Signup</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body class="text-center">
+    <main class="form-signin">
+      <form action="/" method="POST">
+        <img
+          class="mb-4"
+          src="images/logo.png"
+          alt=""
+          width="100px"
+          height="80px"
+        />
+        <h1 class="h3 mb-3 fw-normal">Signup to my Newsletter</h1>
+
+        <div class="form-floating">
+          <input
+            type="text"
+            name="fname"
+            class="form-control top"
+            id="floatingInput"
+            placeholder="First Name"
+          />
+        </div>
+        <div class="form-floating">
+          <input
+            type="text"
+            name="lname"
+            class="form-control middle"
+            id="floatingInput"
+            placeholder="Last Name"
+          />
+          <div class="form-floating">
+            <input
+              type="email"
+              name="email"
+              class="form-control bottom"
+              id="floatingInput"
+              placeholder="Email address"
+            />
+          </div>
+        </div>
+        <button class="btn btn-primary signup-btn" type="submit">
+          Sign in
+        </button>
+        <p class="mt-5 mb-3 text-muted">&copy; Techie Me 2017–2021</p>
+      </form>
+    </main>
+  </body>
+</html>
