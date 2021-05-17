@@ -35,7 +35,7 @@ app.post("/", (req, res) => {
 
   const options = {
     method: "POST",
-    auth: "nishant:a3bc9c965ea1ea22084082d05550d31a7-us1",
+    auth: "nishant:3bc9c965ea1ea22084082d05550d31a7-us1",
   };
 
   const request = https.request(url, options, (response) => {
